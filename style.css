@@ -1,0 +1,30 @@
+.counter {
+    width: 50px;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .increment, .decrement {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    background-color: #4dff00;
+    color: white;
+    border: none;
+    border-radius: green 4px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .increment:hover, .decrement:hover {
+    background-color: #0033ff;
+    transition: 0.1s all linear;
+  }
+  
+  .increment:active, .decrement:active {
+    background-color: #4CAF50;
+    transform: translateY(10px);
+  }
+   
+  
